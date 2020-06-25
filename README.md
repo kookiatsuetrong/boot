@@ -11,6 +11,8 @@ sudo apt install git
 
 git clone https://github.com/kookiatsuetrong/boot
 cd boot
+mvn spring-boot:run
+
 mvn package
 java -jar target/demo-1.jar
 ```
